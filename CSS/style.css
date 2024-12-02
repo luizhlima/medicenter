@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  height: 120px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 990px;
+}
+
+nav ul,
+nav li {
+  list-style-type: none;
+}
+
+#nav ul {
+  display: flex;
+}
+
+#nav ul li a {
+  display: block;
+  padding: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #727272;
+}
+
+.class a {
+  background-color: black;
+}
