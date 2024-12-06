@@ -24,11 +24,6 @@ header {
   width: 990px;
 }
 
-.active {
-  background-color: blue;
-  color: white;
-}
-
 nav ul {
   display: flex;
 }
@@ -40,10 +35,13 @@ nav ul li {
 nav ul li a {
   padding: 15px;
   display: block;
-  color: black;
+  text-transform: uppercase;
+  color: #727272;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-nav ul li a:hover {
-  background-color: blue;
+nav li a:hover,
+nav .active a {
+  background-color: #39aae1;
   color: white;
 }
